@@ -1,0 +1,70 @@
+/* // RESET // */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+a {
+    color: white !important;
+}
+
+
+/* // VARIABLES // */
+$pink-500: rgb(255, 0, 221);
+
+/* // UTILITY CLASSES // */
+
+.offcanvas-header {
+    background-color: rgb(9, 0, 136);
+
+    & .offcanvas-title {
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+.nav-link{
+    font-size: 1rem !important;
+    color: white !important;
+}
+
+.nav-link-active-menu {
+    color: $pink-500 !important;
+    font-weight: 700 !important;
+    font-size: 1.3rem !important;
+}
+
+.offcanvas-body {
+    background-image: url(../../img/backgrounds/videojuegos_1920x1080.jpg) !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+.btn-outline-success {
+    background-color: rgba(255, 255, 255, 0.671) !important;
+    color: blue !important;
+    border: solid blue 2px !important;
+    font-weight: 500 !important;
+}
+
+.dropdown-menu.show {
+    background-color: rgba(255, 255, 255, 0.082) !important;
+    border: none !important;
+    
+    & .dropdown-item {
+        color: white !important;
+    }
+}
+
+.menu-icon {
+    height: 1.2em;
+}
+
+.background {
+    background-image: url(../../img/backgrounds/body-background.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
