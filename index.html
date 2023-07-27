@@ -136,8 +136,8 @@
       </ul>
     </nav>
 
-    <form class="d-flex" role="search">
-      <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+    <form class="d-flex" role="search" id="searchForm">
+      <input id="searchInput" class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
       <button class="btn btn-outline-success" type="submit">Buscar</button>
     </form>
 
@@ -153,6 +153,9 @@
   </header>
 
   <main class="main">
+
+    
+
     <div>
       <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
         <!-- Slides del carrusel -->
@@ -167,6 +170,8 @@
       </div>
       
     </div>
+
+    
 
     <div class="billboard" id="billboard">
       <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -203,6 +208,12 @@
         </div>
       </div>
     </div>
+
+
+    <div class="search-list background" id="searchResults">
+
+    </div>
+    
 
     <div class="banner-background">
       <h2 class="banner-title">Mas vendidos</h2>
@@ -489,6 +500,7 @@
 <script type="module" src="./index.js"></script>
 <script type="module" src="./scripts/loginUsers.js"></script>
 <script type="module" src="./scripts/products.js"></script>
+<script src="./scripts/videogamesApi.js"></script>
 
 <!-- Sweet ALert -->
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>

@@ -11,8 +11,6 @@ ProductsList.push(productMostSellThree);
 let productMostSellFour = new Product(generateId(), 'PS4', 'NBA 2K23', 1225, './img/mostSell/Untitled-5.png', '', true);
 ProductsList.push(productMostSellFour);
 
-console.log(ProductsList)
-
 
 const mostSell = document.getElementById('mostSell');
 

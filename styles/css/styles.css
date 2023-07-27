@@ -122,6 +122,11 @@ a {
   padding: 10px;
 }
 
+.search-results {
+  display: flex;
+  flex-direction: row;
+}
+
 .card-content {
   border: solid rgba(0, 0, 0, 0.205) 1px;
   border-radius: 5px;
@@ -347,6 +352,15 @@ a {
 }
 .form #registrationForm input {
   border-radius: 0.375rem;
+}
+
+.search-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  display: none;
 }
 
 .header {

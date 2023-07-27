@@ -69,6 +69,10 @@
 }
 
 
+.search-results {
+    display: flex;
+    flex-direction: row;
+}
 
 
 .card-content {
@@ -359,6 +363,16 @@
             border-radius: 0.375rem;
         }
     }
+}
+
+.search-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: none;
+
 }
 
 
